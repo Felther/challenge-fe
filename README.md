@@ -6,3 +6,4 @@
     - Abrir uma linha de comando na raiz do projeto e executar o comando `npm i`
 2. Iniciar o servidor
     - Na linha de comando executar o comando `npm run dev`
+    - O aplicativo irá rodar no localhost:3000
