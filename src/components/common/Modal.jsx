@@ -19,19 +19,19 @@ const Modal = ({ setOpenModal, data }) => {
                 <h3 className="mt-2 text-left text-gray-500">
                   R$ {data.price}
                 </h3>
-                <div class="mt-2 bg-white flex justify-left flex-wrap">
-                  <span class="inline-flex items-center mt-1 mb-1 mr-1 px-2 py-1 bg-gray-200 hover:bg-gray-300 rounded-full text-sm font-semibold text-gray-600">
-                    <span class="ml-1 mr-1">
+                <div className="mt-2 bg-white flex justify-left flex-wrap">
+                  <span className="inline-flex items-center mt-1 mb-1 mr-1 px-2 py-1 bg-gray-200 hover:bg-gray-300 rounded-full text-sm font-semibold text-gray-600">
+                    <span className="ml-1 mr-1">
                       {data.type}
                     </span>
                   </span>
-                  <span class="inline-flex items-center m-1 px-2 py-1 bg-gray-200 hover:bg-gray-300 rounded-full text-sm font-semibold text-gray-600">
-                    <span class="ml-1 mr-1">
+                  <span className="inline-flex items-center m-1 px-2 py-1 bg-gray-200 hover:bg-gray-300 rounded-full text-sm font-semibold text-gray-600">
+                    <span className="ml-1 mr-1">
                       {data.seller}
                     </span>
                   </span>
-                  <span class="inline-flex items-center m-1 px-2 py-1 bg-gray-200 hover:bg-gray-300 rounded-full text-sm font-semibold text-gray-600">
-                    <span class="ml-1 mr-1">
+                  <span className="inline-flex items-center m-1 px-2 py-1 bg-gray-200 hover:bg-gray-300 rounded-full text-sm font-semibold text-gray-600">
+                    <span className="ml-1 mr-1">
                       {data.sport}
                     </span>
                   </span>
